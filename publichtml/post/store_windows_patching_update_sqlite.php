@@ -2,7 +2,7 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
-$dbfile = 'sqlite:/sqlitedata/database.sqlite';
+$dbfile = '/sqlitedata/database.sqlite';
 
 // Create connection
 try {
